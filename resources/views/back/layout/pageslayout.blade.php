@@ -498,7 +498,7 @@
 
 		<div class="left-side-bar">
 			<div class="brand-logo">
-				<a href="index.html">
+				<a href="/">
 					<img src="" alt="" class="dark-logo" />
 					<img
 						src="/back/vendors/images/deskapp-logo-white.svg"
@@ -513,7 +513,6 @@
 			<div class="menu-block customscroll">
 				<div class="sidebar-menu">
 					<ul id="accordion-menu">
-
 
 					@if(Route::is('admin.*'))
 
