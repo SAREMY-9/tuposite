@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>EShopper - Bootstrap Shop Template</title>
+    <title>Tupo</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -20,16 +20,22 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="frontend/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="frontend/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> 
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="frontend/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
+
+
     <!-- Topbar Start -->
+
     <div class="container-fluid">
+
         <div class="row bg-secondary py-2 px-xl-5">
+
             <div class="col-lg-6 d-none d-lg-block">
                 <div class="d-inline-flex align-items-center">
                     <a class="text-dark" href="">FAQs</a>
@@ -37,8 +43,12 @@
                     <a class="text-dark" href="">Help</a>
                     <span class="text-muted px-2">|</span>
                     <a class="text-dark" href="">Support</a>
-                </div>
-            </div>
+                </div> 
+            </div>    
+
+
+
+
             <div class="col-lg-6 text-center text-lg-right">
                 <div class="d-inline-flex align-items-center">
                     <a class="text-dark px-2" href="">
@@ -58,11 +68,16 @@
                     </a>
                 </div>
             </div>
+
+
         </div>
+
+
+
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
-                <a href="" class="text-decoration-none">
-                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>Shopper</h1>
+                <a href="" class="text-decoration-none"> 
+                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-success font-weight-bold border px-3 mr-1">TUPO</span>SITE</h1>
                 </a>
             </div>
             <div class="col-lg-6 col-6 text-left">
@@ -70,7 +85,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search for products">
                         <div class="input-group-append">
-                            <span class="input-group-text bg-transparent text-primary">
+                            <span class="input-group-text bg-transparent text-success">
                                 <i class="fa fa-search"></i>
                             </span>
                         </div>
@@ -79,11 +94,11 @@
             </div>
             <div class="col-lg-3 col-6 text-right">
                 <a href="" class="btn border">
-                    <i class="fas fa-heart text-primary"></i>
+                    <i class="fas fa-heart text-success"></i>
                     <span class="badge">0</span>
                 </a>
                 <a href="" class="btn border">
-                    <i class="fas fa-shopping-cart text-primary"></i>
+                    <i class="fas fa-shopping-cart text-success"></i>
                     <span class="badge">0</span>
                 </a>
             </div>
@@ -96,7 +111,7 @@
     <div class="container-fluid mb-5">
         <div class="row border-top px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
-                <a class="btn shadow-none d-flex align-items-center justify-content-between bg-primary text-white w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; margin-top: -1px; padding: 0 30px;">
+                <a class="btn shadow-none d-flex align-items-center justify-content-between bg-success text-white w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; margin-top: -1px; padding: 0 30px;">
                     <h6 class="m-0">Categories</h6>
                     <i class="fa fa-angle-down text-dark"></i>
                 </a>
@@ -125,7 +140,7 @@
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
                     <a href="" class="text-decoration-none d-block d-lg-none">
-                        <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">E</span>Shopper</h1>
+                        <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-success font-weight-bold border px-3 mr-1">T</span>SITE</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
@@ -145,8 +160,8 @@
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="navbar-nav ml-auto py-0">
-                            <a href="" class="nav-item nav-link">Login</a>
-                            <a href="" class="nav-item nav-link">Register</a>
+                            <a href="{{route('login')}}" class="nav-item nav-link">Login</a>  
+                            <a href="{{route('register')}}" class="nav-item nav-link">Register</a>
                         </div>
                     </div>
                 </nav>
@@ -162,6 +177,8 @@
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="carousel-item" style="height: 410px;">
                             <img class="img-fluid" src="frontend/img/carousel-2.jpg" alt="Image">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -173,6 +190,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
                         <div class="btn btn-dark" style="width: 45px; height: 45px;">
                             <span class="carousel-control-prev-icon mb-n2"></span>
@@ -195,25 +213,25 @@
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
+                    <h1 class="fa fa-check text-success m-0 mr-3"></h1>
                     <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
+                    <h1 class="fa fa-shipping-fast text-success m-0 mr-2"></h1>
                     <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                    <h1 class="fas fa-exchange-alt text-success m-0 mr-3"></h1>
                     <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
+                    <h1 class="fa fa-phone-volume text-success m-0 mr-3"></h1>
                     <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
                 </div>
             </div>
@@ -291,9 +309,9 @@
                 <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
                     <img src="img/offer-1.png" alt="">
                     <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
+                        <h5 class="text-uppercase text-success mb-3">20% off the all order</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Spring Collection</h1>
-                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                        <a href="" class="btn btn-outline-success py-md-2 px-md-3">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -301,9 +319,9 @@
                 <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
                     <img src="img/offer-2.png" alt="">
                     <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-primary mb-3">20% off the all order</h5>
+                        <h5 class="text-uppercase text-success mb-3">20% off the all order</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Winter Collection</h1>
-                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                        <a href="" class="btn btn-outline-success py-md-2 px-md-3">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -330,8 +348,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -347,8 +365,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -364,8 +382,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -381,8 +399,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -398,8 +416,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -415,8 +433,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -432,8 +450,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -449,8 +467,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -471,7 +489,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control border-white p-4" placeholder="Email Goes Here">
                         <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Subscribe</button>
+                            <button class="btn btn-success px-4">Subscribe</button>
                         </div>
                     </div>
                 </form>
@@ -499,8 +517,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -516,8 +534,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -533,8 +551,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -550,8 +568,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -567,8 +585,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -584,8 +602,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -601,8 +619,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -618,8 +636,8 @@
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-success mr-1"></i>View Detail</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-success mr-1"></i>Add To Cart</a>
                     </div>
                 </div>
             </div>
@@ -669,12 +687,12 @@
         <div class="row px-xl-5 pt-5">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <a href="" class="text-decoration-none">
-                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">E</span>Shopper</h1>
+                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-success font-weight-bold border border-white px-3 mr-1">T</span>SITE</h1>
                 </a>
                 <p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>123 Street, New York, USA</p>
-                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>info@example.com</p>
-                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-success mr-3"></i>KNY Street, Nairobi Kenya</p>
+                <p class="mb-2"><i class="fa fa-envelope text-success mr-3"></i>info@tupo.site</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-success mr-3"></i>+254774510117</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
@@ -711,7 +729,7 @@
                                     required="required" />
                             </div>
                             <div>
-                                <button class="btn btn-primary btn-block border-0 py-3" type="submit">Subscribe Now</button>
+                                <button class="btn btn-success btn-block border-0 py-3" type="submit">Subscribe Now</button>
                             </div>
                         </form>
                     </div>
@@ -721,8 +739,8 @@
         <div class="row border-top border-light mx-xl-5 py-4">
             <div class="col-md-6 px-xl-0">
                 <p class="mb-md-0 text-center text-md-left text-dark">
-                    &copy; <a class="text-dark font-weight-semi-bold" href="#">Tupo.site</a>. All Rights Reserved. Designed
-                    <a class="text-dark font-weight-semi-bold" href="https://github.com/SAREMY-9">SaremyInc</a><br>
+                    &copy; <a class="text-success font-weight-semi-bold" href="#">tupo.site</a>. All Rights Reserved. Designed
+                    <a class="text-success font-weight-semi-bold" href="https://github.com/SAREMY-9">SaremyInc</a><br>
                     Distributed By <a href="" target="_blank">SaremyInc</a>
                 </p>
             </div>
@@ -735,7 +753,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <a href="#" class="btn btn-success back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

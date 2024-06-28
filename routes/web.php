@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend; 
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +30,6 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::view('/index','frontend.index');  
+Route::view('/home','frontendView'); 
 
 require __DIR__.'/auth.php';
