@@ -1,12 +1,13 @@
-@extends('frontend.index')
+@extends('frontend.home')
 
 
 @section('pageTitle', isset($pageTitle) ? $pageTitle : 'Tupo')
 
-@section('content')
 
+  @section('content')
 
-----content goes here-----
+     <h4>This is the content</h4>
+     
+  @endsection
 
-@endsection
-
+ 

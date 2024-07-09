@@ -30,6 +30,7 @@ Route::middleware('auth')->group(function () {
 });
 
 
-Route::view('/home','frontendView'); 
+Route::view('/home','frontendView');
 
-require __DIR__.'/auth.php';
+require __DIR__.'/auth.php'; 
+
