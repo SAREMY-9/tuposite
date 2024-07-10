@@ -6,8 +6,8 @@
 
   @section('content')
 
-     <h4>This is the content</h4>
+     <h4>content goes in here</h4>
      
   @endsection
 
- 
+  

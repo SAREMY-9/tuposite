@@ -3,11 +3,19 @@
     <div class="container-fluid bg-secondary text-dark mt-5 pt-5">
         <div class="row px-xl-5 pt-5">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                
+        </a>
+                <p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
+
+
                 <a href="" class="text-decoration-none">
                     <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-success font-weight-bold border border-white px-3 mr-1">T</span>SITE</h1>
+                
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-success mr-3"></i>KYC, Nairobi Kenya</p>
+
                 </a>
-                <p>Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum no sit erat lorem et magna ipsum dolore amet erat.</p>
-                <p class="mb-2"><i class="fa fa-map-marker-alt text-success mr-3"></i>KNY Street, Nairobi Kenya</p>
+
+                
                 <p class="mb-2"><i class="fa fa-envelope text-success mr-3"></i>info@tupo.site</p>
                 <p class="mb-0"><i class="fa fa-phone-alt text-success mr-3"></i>+254774510117</p>
             </div>
