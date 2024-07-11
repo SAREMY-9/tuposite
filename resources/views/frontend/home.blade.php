@@ -30,7 +30,6 @@
 
   
 
-
     @include('frontend.topbar')
     @include('frontend.navbar')
 

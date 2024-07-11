@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\AdminController;
 
+use App\Http\Controllers\Admin\CategoriesController;
+
 /*Route::get('/admin', function(){
     
     return 'hello Admin';
@@ -33,5 +35,16 @@ Route::prefix('admin')->name('admin.')->group(function(){
         // admin log out route
         Route::post('logout_handler',[AdminController::class,'logoutHandler'])->name
         ('logout_handler');
+
+        //categories and sub categories management
+
+        Route::prefix('manage-categories')->name('manage-categories.')->group(function(){
+
+            Route::controller(CategoriesController::class)->group(function(){
+
+                Route::get('/','catSubcatList')->name('cats-subcats-list');  
+        
+            });
+        }); 
     });
 });
