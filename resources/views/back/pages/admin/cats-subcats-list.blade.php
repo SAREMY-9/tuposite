@@ -1,14 +1,38 @@
-@extends('frontend.home')
+@extends('back.layout.pageslayout')
+@section('pageTitle', Isset($pageTitle) ? $pageTitle : 'DEREVA')
+@section('content')
 
 
-@section('pageTitle', isset($pageTitle) ? $pageTitle : 'Tupo')
+    <div class="row">
+
+       <div class="col-md-12">
+
+              <div class="clearfix">
+
+                   <div class="pull-left">
+
+                       <h4 class="text-blue">Categories</h4>
+
+                   </div>
 
 
-  @section('content')
 
-     <h4>content goes in here</h4>
-     
-  @endsection
-  
+                   <div class="pull-right">
 
+                   <a href="" class="btn btn-primary btn sm">
 
+                    <i class fa fa-plus>  </fa-plus>
+
+                        Add category
+
+                   </a>
+
+                   </div>
+
+              </div>
+
+       </div>
+
+    </div>
+
+@endsection

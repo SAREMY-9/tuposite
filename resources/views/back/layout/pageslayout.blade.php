@@ -180,7 +180,7 @@
 											<img src="/back/vendors/images/img.jpg" alt="" />
 											<h3>Evans Mwenda</h3>
 											<p>
-												This is Dereva admin's account.........
+												This is  admin's account.........
 											</p>
 										</a>
 									</li>
@@ -189,7 +189,7 @@
 											<img src="/back/vendors/images/photo1.jpg" alt="" />
 											<h3>Mohammed Salah</h3>
 											<p>
-												This is Dereva admin's account.........
+												This is admin's account.........
 											</p>
 										</a>
 									</li>
@@ -198,7 +198,7 @@
 											<img src="/back/vendors/images/photo2.jpg" alt="" />
 											<h3>Micheal  Scoffield</h3>
 											<p>
-												This is Dereva admin's account.........
+												This is admin's account.........
 											</p>
 										</a>
 									</li>
@@ -207,7 +207,7 @@
 											<img src="/back/vendors/images/photo3.jpg" alt="" />
 											<h3>Dembe</h3>
 											<p>
-												This is Dereva admin's account.........
+												This is admin's account.........
 											</p>
 										</a>
 									</li>
@@ -216,7 +216,7 @@
 											<img src="/back/vendors/images/photo4.jpg" alt="" />
 											<h3>John Doe</h3>
 											<p>
-												This is the Dereva admin's account
+												This is the admin's account
 												...
 											</p>
 										</a>
@@ -226,7 +226,7 @@
 											<img src="/back/vendors/images/img.jpg" alt="" />
 											<h3>Dirk Kuyt</h3>
 											<p>
-												This is Dereva admin's account.........
+												This is admin's account.........
 											</p>
 										</a>
 									</li>
@@ -533,7 +533,7 @@
 							<li>
 								<a href="{{ route('admin.manage-categories.cats-subcats-list')}}"  
 								
-								class="dropdown-toggle no-arrow {{ 	Route::is('admin.manage-categories.*') ? 'active' : '' }}">
+								class="dropdown-toggle no-arrow {{ 	Route::is('admin.manage-categories.*') ? 'active' : '' }}"> 
 
 								<span class="micon dw dw-align-left3"></span>
 
