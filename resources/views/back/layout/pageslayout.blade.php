@@ -141,7 +141,7 @@
 										</div>
 									</div>
 									<div class="text-right">
-										<button class="btn btn-primary">Search</button>
+										<button class="btn btn-success">Search</button>
 									</div>
 								</div>
 							</div>
@@ -344,12 +344,12 @@
 					<div class="sidebar-btn-group pb-30 mb-10">
 						<a
 							href="javascript:void(0);"
-							class="btn btn-outline-primary header-white active"
+							class="btn btn-outline-success header-white active"
 							>White</a
 						>
 						<a
 							href="javascript:void(0);"
-							class="btn btn-outline-primary header-dark"
+							class="btn btn-outline-success header-dark"
 							>Dark</a
 						>
 					</div>
@@ -358,12 +358,12 @@
 					<div class="sidebar-btn-group pb-30 mb-10">
 						<a
 							href="javascript:void(0);"
-							class="btn btn-outline-primary sidebar-light"
+							class="btn btn-outline-success sidebar-light"
 							>White</a
 						>
 						<a
 							href="javascript:void(0);"
-							class="btn btn-outline-primary sidebar-dark active"
+							class="btn btn-outline-success sidebar-dark active"
 							>Dark</a
 						>
 					</div>
@@ -544,7 +544,6 @@
 							</li>
 
 
-
 						<li>
 							<div class="dropdown-divider"></div>
 						</li>
@@ -637,7 +636,7 @@
 							<div class="col-md-6 col-sm-12 text-right">
 								<div class="dropdown">
 									<a
-										class="btn btn-primary dropdown-toggle"
+										class="btn btn-success dropdown-toggle"
 										href="#"
 										role="button"
 										data-toggle="dropdown"

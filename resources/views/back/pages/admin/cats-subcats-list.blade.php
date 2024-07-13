@@ -19,7 +19,7 @@
 
                    <div class="pull-right">
 
-                   <a href="" class="btn btn-primary btn sm">
+                   <a href="" class="btn btn-success btn sm">
 
                     <i class fa fa-plus>  </fa-plus>
 
