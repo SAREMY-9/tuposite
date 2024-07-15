@@ -42,11 +42,11 @@ Route::prefix('admin')->name('admin.')->group(function(){
 
             Route::controller(CategoriesController::class)->group(function(){
 
-                Route::get('/','catSubcatList')->name('cats-subcats-list');  
-        
+                Route::get('/','catSubcatList')->name('cats-subcats-list'); 
+                Route::get('/add-category','addCategory')->name('add-category');
+                Route::post('/store-category','storeCategory')->name('store-category'); 
+
             });
         }); 
     });
 });
-
-

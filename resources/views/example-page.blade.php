@@ -1,5 +1,5 @@
 @extends('back.layout.pageslayout')
-@section('pageTitle', Isset($pageTitle) ? $pageTitle : 'DEREVA')
+@section('pageTitle', Isset($pageTitle) ? $pageTitle : 'Tupo')
 @section('content')
 
 content goes here......

@@ -15,4 +15,17 @@ class CategoriesController extends Controller
 
         return view('back.pages.admin.cats-subcats-list', $data);
     }
+
+
+
+    public function addCategory(Request $request){
+
+        $data = [
+
+            'pageTitle' => 'Tupo.Add Category'
+        ];
+
+        return view('back.pages.admin.add-category', $data); 
+
+    }
 }
