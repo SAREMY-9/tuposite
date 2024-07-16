@@ -4,9 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Http\Testing\File;
+use Illuminate\Support\Facades\File;
 use App\Models\Category;
 use \Cviebrock\EloquentSluggable\Services\SlugService;
+
 
 
 class CategoriesController extends Controller
