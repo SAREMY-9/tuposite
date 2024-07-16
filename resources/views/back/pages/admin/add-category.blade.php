@@ -23,13 +23,12 @@
                    <a href="{{ route('admin.manage-categories.cats-subcats-list')}}" class="btn btn-succcess btn-sm">
 
                     <i class="ion-arrow-left-a"></i> Back to categories list 
-
-
                 </div>
           </div>
+          <hr>
 
 
-          <form action=""  method=""   enctype="muiltipart/form-data"  class="mt-3">
+          <form action="{{ route('admin.manage-categories.store-category')}}"  method="POST"   enctype="muiltipart/form-data"  class="mt-3">
 
               @csrf
 
@@ -110,7 +109,7 @@
                         <label for=""> Category image</label>
 
                     
-                        <input type="file" name="category_image" id=""  class="form-control">
+                        <input type="file" name="category_image" id=""  class="form-control"> 
 
                         @error('category_image')
 
@@ -127,12 +126,8 @@
                     </div>
 
                  </div>
-
-
               </div>
-
               <button type="submit" class="btn btn-success">CREATE</button>
-
           </form>
           </div>
         </div>
