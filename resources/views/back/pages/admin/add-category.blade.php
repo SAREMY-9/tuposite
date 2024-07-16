@@ -28,7 +28,7 @@
           <hr>
 
 
-          <form action="{{ route('admin.manage-categories.store-category')}}"  method="POST"   enctype="muiltipart/form-data"  class="mt-3">
+          <form action="{{ route('admin.manage-categories.store-category')}}"  method="POST"   enctype="multipart/form-data"  class="mt-3">
 
               @csrf
 
